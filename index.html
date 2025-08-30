@@ -3,47 +3,89 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Caveat:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=TikTok+Sans:opsz,wght@12..36,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Recipe finder website</title>
 </head>
 <body>
+  <div class="container">
+    <header>
+      <a href="index.html"><img src="./assets/images/logo.svg" alt="Logo" class="logo"></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="recipes.html">Recipes</a>
+      </nav>
 
-  Healthy meals, zero fuss
+      <a href="recipes.html"><button class="browse-button">Browse Recipes</button></a>
+    </header>
 
-  Discover eight quick, whole-food recipes that you can cook 
-  tonight—no processed junk, no guesswork.
+    <div class="second-section">
+      <h1 class="second-title">Healthy meals, zero fuss</h1>
+      <p class="description">Discover eight quick, whole-food recipes that you can cook
+        tonight—no processed junk, no guesswork.</p>
+      <a href="about.html"><button class="browse-button">Start exploring</button> </a>  
+    </div>
 
-  Start exploring
+    <div class="main-photo">
+      <img src="./assets/images/image-home-hero-small.webp" alt="center photo">
+    </div>
 
-  What you'll get
+    <div class="benefits-section">
+      <h2>What you'll get</h2>
+      <div class="benefits">
+        <div class="first-benefit">
+          <img src="./assets/images/icon-whole-food-recipes.svg" alt="whole foods">
+          <h3>Whole-food recipes</h3>
+          <p>Each dish uses everyday, unprocessed ingredients.</p>
+        </div>
 
-  Whole-food recipes
-  Each dish uses everyday, unprocessed ingredients.
+        <div class="second-benefit">
+          <img src="./assets/images/icon-minimum-fuss.svg" alt="minimum fuss">
+          <h3>Minimum fuss</h3>
+          <p>All recipes are designed to make eating healthy quick and easy.</p>
+        </div>
 
-  Minimum fuss
-  All recipes are designed to make eating healthy quick and easy.
+        <div class="third-benefit">
+          <img src="./assets/images/icon-search-in-seconds.svg" alt="search in seconds">
+          <h3>Search in seconds</h3>
+          <p>Filter by name or ingredient and jump straight to the recipe you need.</p>
+        </div>
+      </div>
+    </div>
 
-  Search in seconds
-  Filter by name or ingredient and jump straight to the recipe you need.
+    <div class="third-section">
+      <div class="description">
+        <h2 id="third-title">Built for real life</h2>
+        <p id="first-paragraph">Cooking shouldn't be complicated. These recipes 
+          come in under 30 minutes of active time, fit busy schedules, and taste good enough to repeat.</p>
+        <p id="second-paragraph">Whether you're new to the kitchen or just need fresh ideas,
+          we've got you covered.</p>  
+      </div>
 
-  Built for real life
+      <div class="cooking-photo">
+        <img src="./assets/images/image-home-real-life-small.webp" alt="home real life">
+      </div>
+    </div>
 
-  Cooking shouldn't be complicated. These recipes come in under 
-  30 minutes of active time, fit busy schedules, and taste good 
-  enough to repeat. 
+    <div class="last-section">
+      <img src="./assets/images/pattern-fork.svg" alt="fork photo" id="fork">
+      <div class="ready-to-cook">
+        <h2>Ready to cook smarter?</h2>
+        <p;>Hit the button, pick a recipe, and get dinner on the table—fast.</p>
+        <a href="recipes.html"><button class="browse-button">Browse Recipes</button></a>
+      </div>
+      <img src="./assets/images/pattern-knife.svg" alt="" id="knife">
+    </div>
 
-  Whether you're new to the kitchen or just need fresh ideas, 
-  we've got you covered.
-
-  Ready to cook smarter?
-
-  Hit the button, pick a recipe, and get dinner on the table—fast.
-
-  Browse recipes
-
-  Made with ❤️ and 🥑
-
-</body>
+    <footer>
+      <a href="https://www.instagram.com/hieuisso1/" target="_blank"><img src="./assets/images/icon-instagram.svg" alt="instagram"></a>
+      <a href="#" target="_blank"><img src="./assets/images/icon-bluesky.svg" alt="bluesky"></a>
+      <a href="#" target="_blank"><img src="./assets/images/icon-tiktok.svg" alt="tiktok"></a>
+    </footer>
+  </div>
+  </body>
 </html>
