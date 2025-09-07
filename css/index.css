@@ -5,6 +5,12 @@
 }
 
 body {
+    font-family: 'Nunito', sans-serif;
+    color: #0D470D;
+    background-color: #FBF5EC;
+}
+
+header {    
     display: flex;
     justify-content: space-around;
     align-items: center;
