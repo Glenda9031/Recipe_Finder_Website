@@ -4,3 +4,96 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #0D470D;
+    background-color: #FFF;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 68.75rem;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4.375rem;
+    border-bottom: .0625rem solid #808080
+}
+
+.logo {
+    width: 12.5rem;
+}
+
+.nav-links {
+ display: flex;
+ gap: 1.5625rem;   
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #0D470D;
+}
+
+.nav-links a.active {
+    font-weight: bold;
+    border-bottom: .125rem solid #0D470D;
+}
+
+.browse-button {
+    font-size: 1rem;
+    padding: .625rem .9375rem;
+    border: none;
+    border-radius: .4375rem;
+    background-color: #0D470D;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.section {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50rem;
+}
+
+.section h1,
+.section h2 {
+    margin-bottom: .9375rem;
+}
+
+.section h3 {
+    margin-top: 1.25rem;
+}
+
+.section p,
+.section li {
+    margin-bottom: .625rem;
+}
+
+ul {
+    list-style: none;
+    padding-left: 1.25rem;
+}
+
+.cta {
+    text-align: center;
+    background-color: #E7ECEE;
+    padding: 2.5rem 1.25rem;
+    border-radius: .75rem;
+}
+
+footer {
+    display: flex;
+    justify-content: end;
+    gap: 1.125rem;
+    margin: 1.875rem 0 1.25rem;
+}
+
