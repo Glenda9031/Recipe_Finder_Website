@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #0D470D;
+    background-color: #FBF5EC;
+}
+
+header {    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4.375rem;
+    border-bottom: .0625rem solid #808080;
+}
+
+.logo {
+    width: 12.5rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.5625rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #0D470D;
+}
+
+.browse-button {
+    font-size: 1rem;
+    padding: .625rem .9375rem;
+    border: none;
+    border-radius: .4375rem;
+    background-color: #0D470D;
+    color: #fff;
+    cursor: pointer;   
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-top: 3.125rem;
+}
+
+.first-section h1 {
+    margin-bottom: .625rem;
+    font-size: 2.2rem;
+}
+
+.first-section p {
+    line-height: 1.5;
+}
+
+.second-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1.25rem;
+    border-radius: .75rem;
+    margin-bottom: 1.875rem;
+    margin-top: 1.875rem;
+}
+
+.filter {
+    display: flex;
+    gap: .75rem;
+    flex-wrap: wrap;
+}
+
+.search-box {
+    flex: 1;
+    max-width: 13.125rem;
+    height: 1.875rem;
+    padding: .4375rem .625rem;
+    border: none;
+}
+
+.filter select {
+    padding: .4375rem .875rem;
+    border: none;
+}
+
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16.25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.recipe-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+.card {
+    width: 18.75rem;
+    background-color: #fff;
+    border-radius: .625rem;
+    box-shadow: 0 .25rem .5rem rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card img {
+    width: 100%;
+    height: 12.5rem;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: .9375rem;
+    text-align: left;
+}
+
+.card-content h3 {
+    margin: 0 0 .625rem;
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.card-content p {
+    font-size: .875rem;
+    color: #555;
+    margin-bottom: .625rem;
+}
+
+.card-content button {
+    padding: .5rem .75rem;
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: .375rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card-content button:hover {
+    background-color: #e64c4c;
+}
+
+.find-button {
+    font-size: 1rem;
+    margin-left: .625rem;
+    padding: .125rem 1.25rem;
+    border: none;
+    background-color: #ffa500;
+    border-radius: .3125rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.find-button:hover {
+    background-color: #e59400;
+}
+
+
+
